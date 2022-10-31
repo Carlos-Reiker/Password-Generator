@@ -21,13 +21,14 @@ function geraStringAleatoria2(tamanho) {
 }
 //BOTÃO GERADOR DE SENHA DE SEIS DÍGITOS
 function btnSeisDig(){
-    document.getElementById('printSeisDigitos').innerHTML = geraStringAleatoria(4) + geraStringAleatoria2(2);   
+    document.getElementById('showPassword').innerHTML = geraStringAleatoria(4) + geraStringAleatoria2(2);   
 }
 //BOTÃO GERADOR DE SENHA DE OITO DÍGITOS
 function btnOitoDig(){
-    document.getElementById('printOitoDigitos').innerHTML = geraStringAleatoria(5) + geraStringAleatoria2(3);   
+    document.getElementById('showPassword').innerHTML = geraStringAleatoria(5) + geraStringAleatoria2(3);   
 }
 //BOTÃO GERADOR DE SENHA DE QUINZE DÍGITOS
 function btnQuinzeDig(){
-    document.getElementById('printQuinzeDigitos').innerHTML = geraStringAleatoria(9) + geraStringAleatoria2(6) ;   
+    document.getElementById('showPassword').innerHTML = geraStringAleatoria(9) + geraStringAleatoria2(6) ;   
 }
+
