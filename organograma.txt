@@ -1,0 +1,13 @@
+> > > FALTA FAZER
+
+- outra página com o medidor de Senhas
+    (fazer input para user colocar a senha 
+    e um script com tag progress medindo os níveis da senha);
+    
+- menu estilo hamburguer contendo:
+    ~icon link p/ linkedin e github;
+    ~atalhos links para as outras páginas criadas;
+
+- editar estilo e aplicar responsividade.
+
+-(opcional) criar botão de copiar nos resultados de Password e PIN
