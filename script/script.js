@@ -7,7 +7,6 @@ function geraStringAleatoria(tamanho) {
         stringAleatoria += caracteres.charAt(   Math.floor  (   Math.random() * caracteres.length   )   );
     }
     return stringAleatoria;
-
 }
 function geraStringAleatoria2(tamanho) {
     var stringAleatoria2 = '';
@@ -19,16 +18,18 @@ function geraStringAleatoria2(tamanho) {
     }
     return stringAleatoria2;
 }
-//BOTÃO GERADOR DE SENHA DE SEIS DÍGITOS
+//BOTÃO GERADOR DE SENHA DE SEIS CARACTERES
 function btnSeisDig(){
     document.getElementById('showPassword').innerHTML = geraStringAleatoria(4) + geraStringAleatoria2(2);   
 }
-//BOTÃO GERADOR DE SENHA DE OITO DÍGITOS
+//BOTÃO GERADOR DE SENHA DE OITO CARACTERES
 function btnOitoDig(){
     document.getElementById('showPassword').innerHTML = geraStringAleatoria(5) + geraStringAleatoria2(3);   
 }
-//BOTÃO GERADOR DE SENHA DE QUINZE DÍGITOS
+//BOTÃO GERADOR DE SENHA DE QUINZE CARACTERES
 function btnQuinzeDig(){
     document.getElementById('showPassword').innerHTML = geraStringAleatoria(9) + geraStringAleatoria2(6) ;   
 }
+
+
 
