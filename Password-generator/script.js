@@ -1,3 +1,37 @@
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+
+
+//BOTÕES DE SENHA 
 function geraStringAleatoria(tamanho) {
     var stringAleatoria = '';
     var lowCase = '0123456789';
@@ -31,5 +65,13 @@ function btnQuinzeDig(){
     document.getElementById('showPassword').innerHTML = geraStringAleatoria(9) + geraStringAleatoria2(6) ;   
 }
 
-
+//GERADOR DE PIN
+function btnPin6Dig(){
+    const pin6 = Math.floor((Math.random() * 900000) + 100000);
+    document.getElementById('showPin').innerHTML= pin6;
+}
+function btnPin4Dig(){
+    const pin4 = Math.floor((Math.random() * 9000) + 1000);
+    document.getElementById('showPin').innerHTML= pin4;
+}
 
