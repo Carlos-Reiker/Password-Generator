@@ -24,7 +24,8 @@ main{
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  font-size: 17px;
+  font-size: 25px;
+  font-weight: bold;
   width: 50%;
 }
 
@@ -38,17 +39,27 @@ main{
   display: none;
   padding: 100px 20px;
   height: 100%;
+  text-align: center;
 }
 h3{
     text-align: center;
 }
-.tabcontent, button{
-    text-align: center;
+.tabcontent> button{
+    font-size: 20px;
+    border-radius: 5%;
+    background-color:#fff;
+    border: none;
+    padding: 3%;
+    cursor: pointer;
 }
-.tabcontent, span{
+
+
+.tabcontent> span{
     display: block;
     text-align: center;
+    font-size: 50px;
+    margin: 1.5em;
 }
-#News {background-color: #fff;}
-#Contact {background-color: #fff;}
+#News {background-color: #777;}
+#Contact {background-color: #777;}
 
