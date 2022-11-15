@@ -7,7 +7,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
-  background-color: rgb(255, 160, 19);
+  background-color: #0C102F;
 }
 
 main{
@@ -20,8 +20,8 @@ main{
 }
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
+  background-color: #89124f;
+  color: #101323;
   float: left;
   border: none;
   outline: none;
@@ -33,7 +33,7 @@ main{
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: #489314;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -46,11 +46,15 @@ main{
 }
 h3{
     text-align: center;
+    font-size: 1.5em;
+    color: #101323;
 }
 .tabcontent> button{
     font-size: 20px;
+    font-weight: bold;
+    color: #fff;
     border-radius: 5%;
-    background-color:#fff;
+    background-color: #f0007a;
     border: none;
     padding: 3%;
     cursor: pointer;
@@ -59,10 +63,17 @@ h3{
 
 .tabcontent> span{
     display: block;
+    color: #101323;
     text-align: center;
     font-size: 50px;
     margin: 1.5em;
 }
-#News {background-color: #777;}
-#Contact {background-color: #777;}
+#News {
+  background-color: #6de716;
+  border-radius: 15px;  
+}
+#Contact {
+  background-color: #6de716;
+  border-radius: 15px;
+}
 
